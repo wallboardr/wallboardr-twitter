@@ -1,0 +1,8 @@
+<div class="form-panel">
+  <input type="text" ng-model="newScreenForm.data.widgetId" placeholder="Twitter Widget ID" required>
+  <input type="number" min="1" ng-model="newScreenForm.data.number" placeholder="Number of Tweets" required>
+  <div class="buttons">
+    <button ng-click="addScreen(newScreenForm)" class="success">Add</button>
+    <button ng-click="cancelAddScreen()" class="cancel">Cancel</button>
+  </div>
+</div>
